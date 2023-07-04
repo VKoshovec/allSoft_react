@@ -1,5 +1,5 @@
 import { Button, Checkbox, Form, Input } from 'antd';
-import scss from './requestFrom.module.scss';
+// import scss from './requestFrom.module.scss';
 
 const onFinish = (values) => {
   console.log('Success:', values);

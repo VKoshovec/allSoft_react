@@ -1,4 +1,3 @@
-import './App.css';
 import RequestForm from './components/RequestForm/RequestForm';
 
 function App() {

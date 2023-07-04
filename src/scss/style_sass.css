@@ -17,24 +17,20 @@ h2 {
   text-transform: uppercase;
 }
 
-:root{
-  --brandblue:  rgb(64, 163, 255);
+:root {
+  --brandblue: rgb(64, 163, 255);
 }
-
-
 
 @media screen and (max-width: 500px) {
   h2 {
     font-size: 18px;
   }
 }
-
 @media screen and (max-width: 500px) {
   h3 {
     font-size: 16px;
   }
 }
-
 ul, ol {
   margin: 0px;
   padding: 0px;
@@ -55,12 +51,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media (max-width: 500px) {
   .container .container {
     max-width: 480px;
   }
 }
-
 .section {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -74,7 +70,6 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  /* background-image: url(./images/GuFDA.gif); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -82,10 +77,12 @@ body {
   opacity: 0.7;
   transition: opacity 1s ease-out;
 }
+
 .loader-close {
   transition: opacity 1s ease-out;
   opacity: 0;
 }
+
 .loader-deley {
   transition: display 2s ease-out;
   display: none;
@@ -128,7 +125,6 @@ body {
     transform: translate(20%, 20%) scale(1.3);
   }
 }
-
 /*----------------/banner-----------------*/
 /*----------------scroll------------------*/
 .scroll {
@@ -139,12 +135,15 @@ body {
   color: rgba(43, 103, 255, 0.5);
   z-index: 3;
 }
+
 .scroll__icon {
   fill: currentColor;
 }
+
 .scroll:hover {
   color: rgba(4, 50, 169, 0.9);
 }
+
 @media screen and (max-width: 767px) {
   .scroll {
     bottom: 25px;
@@ -157,7 +156,6 @@ body {
     right: 150px;
   }
 }
-
 /*----------------/scroll------------------*/
 /*==============HEADER===================*/
 .site-header {
@@ -166,6 +164,7 @@ body {
   padding-bottom: 25px;
   background-color: #fff;
 }
+
 @media screen and (max-width: 500px) {
   .site-header {
     padding-top: 15px;
@@ -180,6 +179,7 @@ body {
   color: crimson;
   text-decoration: none;
 }
+
 @media screen and (max-width: 767px) {
   .site-header__logo {
     position: relative;
@@ -191,6 +191,7 @@ body {
   display: none;
   position: unset;
 }
+
 .site-header__logo__span {
   color: rgb(64, 163, 255);
 }
@@ -213,6 +214,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .menu__list {
   display: flex;
   align-items: center;
@@ -221,6 +223,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 @media screen and (max-width: 500px) {
   .menu__list {
     position: unset;
@@ -228,8 +231,6 @@ body {
     justify-content: unset;
     flex-wrap: nowrap;
     align-items: unset;
-
-     
   }
   .menu__list.is-open {
     display: block;
@@ -241,10 +242,8 @@ body {
     background-color: #fff;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 50px;    
-
+    padding-top: 50px;
   }
-  
   .menu__list.is-open .menu__mobile__close {
     display: block;
   }
@@ -258,6 +257,7 @@ body {
 .menu__item:not(:last-child) {
   margin-right: 3em;
 }
+
 @media screen and (max-width: 500px) {
   .menu__item:not(:last-child) {
     margin-bottom: 2em;
@@ -281,6 +281,7 @@ body {
   font-size: 20px;
   color: var(--navcolorlink);
 }
+
 @media screen and (max-width: 500px) {
   .menu__link {
     margin-top: 50px;
@@ -302,12 +303,15 @@ body {
   color: var(--brandblue);
   text-shadow: 5px 5px 4px rgba(210, 209, 209, 0.7);
 }
+
 .menu__mobile {
   display: none;
 }
+
 .menu__mobile__close {
   display: none;
 }
+
 @media screen and (max-width: 500px) {
   .menu__mobile {
     background-color: transparent;
@@ -338,6 +342,7 @@ body {
 .menu__mobile__icon {
   display: none;
 }
+
 @media screen and (max-width: 500px) {
   .menu__mobile__icon {
     display: inline-block;
@@ -350,16 +355,14 @@ body {
     fill: rgb(64, 163, 255);
   }
 }
-
 /*==============/HEADER===================*/
 /*==============HERO===================*/
 .hero {
   display: flex;
   height: 600px;
   /* max-width: 1400px; */
-
   background-color: rgb(210, 209, 209);
-  /* background-image: linear-gradient(rgba(210, 209, 209, 0.2), rgba(210, 209, 209, 0.2)), url(./images/Self_Managing_Teams.jpg); */
+  background-image: linear-gradient(rgba(210, 209, 209, 0.2), rgba(210, 209, 209, 0.2)), url(./images/Self_Managing_Teams.jpg);
   background-position: center;
   object-fit: contain;
   background-repeat: no-repeat;
@@ -384,7 +387,6 @@ body {
 
 /*==============/HERO===================*/
 /*==============PRODS===================*/
-
 .section-title {
   display: flex;
   justify-content: center;
@@ -393,6 +395,7 @@ body {
   margin-right: auto;
   margin-bottom: 60px;
 }
+
 .section-title::after, .section-title::before {
   margin: 20px;
   content: "";
@@ -430,17 +433,20 @@ body {
   z-index: 1;
   box-shadow: 0px 0px 45px 40px rgb(157, 157, 157), 0px 0px 0px 7px rgb(212, 211, 211);
 }
+
 .prod-card__thumb {
   display: block;
   width: 300px;
   margin: 0px, 10px;
   margin-bottom: 20px;
 }
+
 .prod-card__foto {
   display: inline-block;
   width: 95%;
   margin-bottom: 20px;
 }
+
 .prod-card__name {
   display: block;
   margin: 0px;
@@ -451,6 +457,7 @@ body {
   text-transform: uppercase;
   font-size: 14px;
 }
+
 .prod-card__text {
   display: block;
   margin: 0px;
@@ -468,32 +475,27 @@ body {
     gap: 15px;
     padding: 5px;
   }
-
   .prod-card {
     width: 170px;
     height: 200px;
     padding: 15px;
   }
-
   .prod-card:hover {
     transform: scaleY(110%);
     z-index: 1;
     box-shadow: 0px 0px 45px 40px rgb(157, 157, 157), 0px 0px 0px 7px rgb(212, 211, 211);
   }
-
   .prod-card__thumb {
     display: block;
     width: 140px;
     margin: 0px, 5px;
     margin-bottom: 5px;
   }
-
   .prod-card__foto {
     display: inline-block;
     width: 95%;
     margin-bottom: 5px;
   }
-
   .prod-card__name {
     display: block;
     margin: 0px;
@@ -504,7 +506,6 @@ body {
     text-transform: uppercase;
     font-size: 10px;
   }
-
   .prod-card__text {
     display: block;
     margin: 0px;
@@ -528,6 +529,7 @@ body {
   text-align: center;
   margin-bottom: 60px;
 }
+
 .article__name::after, .article__name::before {
   margin: 20px;
   content: "";
@@ -537,10 +539,12 @@ body {
   height: 2px;
   background-color: black;
 }
+
 .article__logo {
   margin-left: 20px;
   font-size: 24px;
 }
+
 @media screen and (max-width: 767px) {
   .article__logo {
     margin-left: 25px;
@@ -555,6 +559,7 @@ body {
   line-height: 1.2;
   padding-bottom: 60px;
 }
+
 @media screen and (max-width: 767px) {
   .article__text {
     margin-left: 25px;
@@ -569,6 +574,7 @@ body {
   padding-top: 30px;
   margin-bottom: 20px;
 }
+
 @media screen and (max-width: 767px) {
   .article__sub {
     background-color: rgba(213, 225, 255, 0.9);
@@ -583,6 +589,7 @@ body {
 .job__list {
   width: 100%;
 }
+
 .job__item {
   display: flex;
   margin: 0;
@@ -592,12 +599,15 @@ body {
   align-items: center;
   padding: 5px;
 }
+
 .job__item:nth-child(2n) {
   background-color: rgba(213, 225, 255, 0.9);
 }
+
 .job__item:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .job__text {
   display: block;
   margin: 0;
@@ -608,6 +618,7 @@ body {
   line-height: 1.2;
   font-weight: 700;
 }
+
 .job__deskr {
   display: block;
   margin: 0;
@@ -626,27 +637,32 @@ body {
   font-size: 24px;
   padding: 50px;
 }
+
 .album__gal {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 40px;
 }
+
 .album__item {
   padding: 20px;
   box-shadow: 5px 5px 4px 2px rgb(157, 157, 157), 3px 3px 3px 1px rgb(212, 211, 211);
   transition: transform 250ms linear, box-shadow 250ms linear;
 }
+
 .album__item:hover {
   transform: scale(1.1);
   box-shadow: 6px 5px 4px 4px rgb(157, 157, 157), 4px 4px 4px 2px rgb(212, 211, 211);
 }
+
 .album__item__text {
   display: block;
   padding: 10px;
   text-align: center;
   font-size: 20px;
 }
+
 .album__item__deskr {
   display: block;
   padding-bottom: 10px;
@@ -655,9 +671,11 @@ body {
   text-transform: uppercase;
   color: rgb(55, 88, 251);
 }
+
 .album__thumb {
   width: 300px;
 }
+
 .album__img {
   max-width: 100%;
 }
@@ -670,28 +688,34 @@ body {
   padding-left: 20px;
   background-image: linear-gradient(rgba(100, 100, 100, 0.8), rgba(100, 100, 100, 0.8));
 }
+
 .page-footer__link {
   margin: 0;
   padding: 0;
   display: block;
   color: #ffffff;
 }
+
 .page-footer__item {
   display: block;
   margin: 0;
   padding: 0;
 }
+
 .page-footer__item:not(:last-child) {
   margin-bottom: 5px;
 }
+
 .page-footer__logo__span {
   color: rgb(64, 163, 255);
 }
+
 .page-footer__columns {
   display: flex;
   margin-left: auto;
   margin-left: auto;
 }
+
 @media screen and (max-width: 767px) {
   .page-footer__columns {
     display: block;
@@ -705,6 +729,7 @@ body {
   display: inline-block;
   margin-left: 20%;
 }
+
 @media screen and (max-width: 767px) {
   .page-footer__map {
     display: block;
@@ -716,6 +741,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 @media screen and (max-width: 767px) {
   .page-footer__nav {
     margin-left: auto;
@@ -724,11 +750,10 @@ body {
     margin-bottom: 20px;
   }
 }
-
 /* ===================/Footer====================== */
 @media (max-width: 500px) {
   .article__text {
     padding: 10px;
     font-size: 18px;
   }
-}/*# sourceMappingURL=style_sass.css.map */
+} /*# sourceMappingURL=style_sass.css.map */
