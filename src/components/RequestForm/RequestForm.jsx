@@ -1,5 +1,5 @@
 import { Button, Checkbox, Form, Input } from 'antd';
-// import scss from './requestFrom.module.scss';
+import css from './requestFrom.module.scss';
 
 const onFinish = (values) => {
   console.log('Success:', values);
@@ -29,10 +29,13 @@ const RequestForm = () => {
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
         autoComplete="off"
-        // className={ css.requestform }
+        className={ css.requestform }
       >
+        <Form.Item>
+          <h2 className={ css.caption }>У вас є запитання ?</h2>
+        </Form.Item>
         <Form.Item
-          label="Username"
+          label="Ваша пошта"
           name="username"
           rules={[
             {
@@ -45,7 +48,7 @@ const RequestForm = () => {
         </Form.Item>
     
         <Form.Item
-          label="Password"
+          label="Запитання"
           name="password"
           rules={[
             {
@@ -54,7 +57,7 @@ const RequestForm = () => {
             },
           ]}
         >
-          <Input.Password />
+          <Input.TextArea />
         </Form.Item>
     
         <Form.Item
@@ -65,7 +68,6 @@ const RequestForm = () => {
             span: 16,
           }}
         >
-          <Checkbox>Remember me</Checkbox>
         </Form.Item>
     
         <Form.Item
@@ -75,7 +77,7 @@ const RequestForm = () => {
           }}
         >
           <Button type="primary" htmlType="submit">
-            Submit
+            Відправити
           </Button>
         </Form.Item>
       </Form>

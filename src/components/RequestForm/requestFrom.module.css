@@ -1,5 +1,16 @@
 .requestform {
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border-radius: 20px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+}
+.requestform_caption {
+  font-weight: 500;
+  font-size: 25px;
 }/*# sourceMappingURL=requestFrom.module.css.map */
