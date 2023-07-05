@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/allsoft_react/static/css/main.b4274d18.css",
+    "main.js": "/allsoft_react/static/js/main.cf73741d.js",
+    "index.html": "/allsoft_react/index.html",
+    "main.b4274d18.css.map": "/allsoft_react/static/css/main.b4274d18.css.map",
+    "main.cf73741d.js.map": "/allsoft_react/static/js/main.cf73741d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4274d18.css",
+    "static/js/main.cf73741d.js"
+  ]
+}
