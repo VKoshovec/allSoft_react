@@ -6,11 +6,22 @@
    background-color:  hsla(0, 0%, 100%, 0.8);
    border-radius: 20px;
    padding: 10px;
-   
+   border: black solid ;
 }
 
 .caption {
    font-weight: 500;
    font-size: 18px;
-   padding-left: 5px;
+   padding: 0px;
+   margin: 0px;
+}
+
+.formclosebutton{
+   margin-left: 90%;
+}
+
+@media screen and (min-width: 570px) {
+   .formclosebutton{
+      margin-left: 130%;
+   } 
 }

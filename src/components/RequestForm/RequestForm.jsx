@@ -32,6 +32,15 @@ const RequestForm = () => {
         className={ css.requestform }
       >
         <Form.Item>
+          <Button 
+          type='ghost' 
+          htmlType='button'
+          className={ css.formclosebutton }
+          >
+             X
+          </Button>
+        </Form.Item>
+        <Form.Item>
           <h2 className={ css.caption }>У вас є запитання ?</h2>
         </Form.Item>
         <Form.Item
