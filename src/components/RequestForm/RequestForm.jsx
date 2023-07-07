@@ -1,4 +1,4 @@
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Button, Form, Input } from 'antd';
 import css from './requestFrom.module.scss';
 
 const onFinish = (values) => {
@@ -49,11 +49,11 @@ const RequestForm = () => {
           rules={[
             {
               required: true,
-              message: 'Please input your username!',
+              message: 'Будь-ласка, напишіть e-mail!',
             },
           ]}
         >
-          <Input />
+          <Input className={ css.formitem  }/>
         </Form.Item>
     
         <Form.Item
@@ -62,21 +62,11 @@ const RequestForm = () => {
           rules={[
             {
               required: true,
-              message: 'Please input your password!',
+              message: 'Будь-ласка, напишіть питання!',
             },
           ]}
         >
-          <Input.TextArea />
-        </Form.Item>
-    
-        <Form.Item
-          name="remember"
-          valuePropName="checked"
-          wrapperCol={{
-            offset: 8,
-            span: 16,
-          }}
-        >
+          <Input.TextArea className={ css.formitem  }/>
         </Form.Item>
     
         <Form.Item
@@ -85,7 +75,11 @@ const RequestForm = () => {
             span: 16,
           }}
         >
-          <Button type="primary" htmlType="submit">
+          <Button 
+          type="primary" 
+          htmlType="submit"
+          className={ css.formitem  }
+          >
             Відправити
           </Button>
         </Form.Item>
