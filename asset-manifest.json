@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/allsoft_react/static/css/main.a93f60f7.css",
-    "main.js": "/allsoft_react/static/js/main.a8eaba5b.js",
+    "main.js": "/allsoft_react/static/js/main.c0ebedfa.js",
     "index.html": "/allsoft_react/index.html",
+    "static/media/chat-svgrepo-com.svg": "/allsoft_react/static/media/chat-svgrepo-com.64078f2706ee278b0d6a0d66523b8608.svg",
     "main.a93f60f7.css.map": "/allsoft_react/static/css/main.a93f60f7.css.map",
-    "main.a8eaba5b.js.map": "/allsoft_react/static/js/main.a8eaba5b.js.map"
+    "main.c0ebedfa.js.map": "/allsoft_react/static/js/main.c0ebedfa.js.map"
   },
   "entrypoints": [
     "static/css/main.a93f60f7.css",
-    "static/js/main.a8eaba5b.js"
+    "static/js/main.c0ebedfa.js"
   ]
 }
