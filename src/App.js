@@ -1,11 +1,9 @@
-import RequestForm from './components/RequestForm/RequestForm';
-import ReturnButtom from './components/ReturnButton/ReturnButton';
+import LeftPannel from "./components/LeftPannel/LeftPannel";
 
 function App() {
   return (
-    <div className="App">
-      <ReturnButtom/>
-      <RequestForm/>
+    <div>
+      <LeftPannel/>
     </div>
   );
 }

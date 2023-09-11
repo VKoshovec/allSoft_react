@@ -1,10 +1,13 @@
+import { ReactComponent as HomeButton } from '../../images/home-svgrepo-com.svg';
+
+import css from './returnButton.module.scss'
+
+
 const ReturnButtom = () => {
     return (
         <div>
            <a href="#start" class="scroll">
-            <svg class="scroll__icon" width="30px" height="30px">
-               <use href="./images/icons.svg#icon-home"></use>
-            </svg>
+            <HomeButton className = { css.homeButton }/>
            </a>
         </div>
     )

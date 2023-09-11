@@ -10,7 +10,7 @@ const onFinishFailed = (errorInfo) => {
 };
 
 
-const RequestForm = () => {
+const RequestForm = ( { onFormClick }) => {
     return(
         <Form
         name="basic"
@@ -36,6 +36,7 @@ const RequestForm = () => {
           type='ghost' 
           htmlType='button'
           className={ css.formclosebutton }
+          onClick={ () => { onFormClick() } }
           >
              X
           </Button>
@@ -79,6 +80,7 @@ const RequestForm = () => {
           type="primary" 
           htmlType="submit"
           className={ css.formitem  }
+          onClick={ onFormClick }
           >
             Відправити
           </Button>
