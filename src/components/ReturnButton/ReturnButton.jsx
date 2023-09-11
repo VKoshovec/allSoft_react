@@ -6,7 +6,7 @@ import css from './returnButton.module.scss'
 const ReturnButtom = () => {
     return (
         <div>
-           <a href="#start" class="scroll">
+           <a href="#start">
             <HomeButton className = { css.homeButton }/>
            </a>
         </div>
