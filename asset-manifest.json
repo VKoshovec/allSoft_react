@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/allsoft_react/static/css/main.a93f60f7.css",
-    "main.js": "/allsoft_react/static/js/main.c0ebedfa.js",
+    "main.css": "/allsoft_react/static/css/main.4424d9a3.css",
+    "main.js": "/allsoft_react/static/js/main.4e1aa9ce.js",
     "index.html": "/allsoft_react/index.html",
+    "static/media/home-svgrepo-com.svg": "/allsoft_react/static/media/home-svgrepo-com.b16e18e008b442f1007e2a86ac50c938.svg",
     "static/media/chat-svgrepo-com.svg": "/allsoft_react/static/media/chat-svgrepo-com.64078f2706ee278b0d6a0d66523b8608.svg",
-    "main.a93f60f7.css.map": "/allsoft_react/static/css/main.a93f60f7.css.map",
-    "main.c0ebedfa.js.map": "/allsoft_react/static/js/main.c0ebedfa.js.map"
+    "main.4424d9a3.css.map": "/allsoft_react/static/css/main.4424d9a3.css.map",
+    "main.4e1aa9ce.js.map": "/allsoft_react/static/js/main.4e1aa9ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.a93f60f7.css",
-    "static/js/main.c0ebedfa.js"
+    "static/css/main.4424d9a3.css",
+    "static/js/main.4e1aa9ce.js"
   ]
 }
