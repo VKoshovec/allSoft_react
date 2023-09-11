@@ -1,12 +1,13 @@
 .requestform{
    display: block;
    position: fixed;
-   bottom: 90px;
+   bottom: 50px;
    right: 30px;
    background-color:  hsla(0, 0%, 100%, 0.8);
    border-radius: 20px;
    padding: 10px;
-   // border: black solid ;
+   border: rgb(79, 79, 79) solid 0px;
+   box-shadow: 2px 3px 8px rgb(60, 60, 60);
 }
 
 .caption {
