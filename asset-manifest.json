@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/allsoft_react/static/css/main.a93f60f7.css",
-    "main.js": "/allsoft_react/static/js/main.7499ff79.js",
+    "main.js": "/allsoft_react/static/js/main.3995f8f3.js",
     "index.html": "/allsoft_react/index.html",
     "main.a93f60f7.css.map": "/allsoft_react/static/css/main.a93f60f7.css.map",
-    "main.7499ff79.js.map": "/allsoft_react/static/js/main.7499ff79.js.map"
+    "main.3995f8f3.js.map": "/allsoft_react/static/js/main.3995f8f3.js.map"
   },
   "entrypoints": [
     "static/css/main.a93f60f7.css",
-    "static/js/main.7499ff79.js"
+    "static/js/main.3995f8f3.js"
   ]
 }
